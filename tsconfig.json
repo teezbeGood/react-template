@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnusedLabels": false,
+    "rootDir": ".",
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es6",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react-jsxdev",
+    "module": "esnext",
+    "noErrorTruncation": true,
+    "noEmitOnError": false,
+    "noUncheckedIndexedAccess": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "lib": [
+      "dom",
+      "es2020",
+      "es2021",
+      "es2022"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "src/*",
+        "tests/*"
+      ]
+    }
+  },
+  "exclude": [
+    "./node_modules",
+    "dist",
+    "_automate",
+    "_config",
+    "public",
+    "coverage"
+  ]
+}
